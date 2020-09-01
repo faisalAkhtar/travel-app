@@ -18,6 +18,8 @@ body {
 	min-height: 100vh;
 	font: 16px "Montserrat", sans-serif;
 	color: #004A4C;
+	overflow-x: hidden;
+	overflow-y: auto;
 	/*color: #071116;*/
 }
 
@@ -123,10 +125,9 @@ body {
 	width: 100%;
 	border-radius: 50%;
 }
-.top .header .header-item svg {
+.top .header .header-item img {
 	width: 100%;
 	height: 100%;
-	fill: #004A4C;
 	transform: scaleX(-1);
 }
 .top .remainder {
@@ -143,10 +144,9 @@ body {
 	box-shadow: 2px 2px 4px #008083, -2px -2px 4px #00d4da;
 	position: relative;
 }
-.top .search svg {
+.top .search img {
 	position: absolute;
 	margin: 10px;
-	fill: #038991;
 	height: calc(100% - 20px);
 }
 .top .search .search-bar {
@@ -256,11 +256,7 @@ body {
 	width: 25%;
 	padding: 17.5px;
 }
-.menu .menu-item svg {
+.menu .menu-item img {
 	width: 100%;
 	height: 100%;
-	fill: #038991;
-}
-.menu .menu-item.selected svg {
-	fill: #004A4C;
 }
